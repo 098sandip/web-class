@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table list</title>
+    <style>
+        th,
+        td {
+            padding: 1rem;
+        }
+
+        tr:nth-child(even) {
+            background-color: green;
+            color: aliceblue;
+        }
+
+        tr:nth-child(odd) {
+            background-color: red;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="50%" border="2" style="text-align:center; border-collapse: collapse; ">
+        <tr>
+            <th>SN</th>
+            <th>name</th>
+            <th>marks</th>
+            <th colspan="2">percentage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sandip</td>
+            <td rowspan="2">87</td>
+            <td>87%</td>
+            <td>87%</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>aayush</td>
+            <td>87%</td>
+
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>rohan</td>
+            <td>90</td>
+            <td>90%</td>
+            <td>95%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>suzn</td>
+            <td>90</td>
+            <td>90%</td>
+            <td>95%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>kushal</td>
+            <td>75</td>
+            <td>75</td>
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>samip</td>
+            <td>80</td>
+            <td>80%</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>syakin</td>
+            <td>75</td>
+            <td>75%</td>
+        </tr>
+    </table>
+</body>
+
+</html>
