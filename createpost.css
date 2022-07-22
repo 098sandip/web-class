@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: #000;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.top{
+    display: flex;
+    width: 90%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: white;
+    
+}
+
+.tittle{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.close{
+color: white;
+margin-top: 10px;
+cursor: pointer;
+height: 30px;
+    width: 30px;
+}
+
+.close:hover{
+    background-color: rgb(163,158,158);
+border-radius: 50%;
+}
+
+.second{
+    display: flex;
+    padding-left: 2rem;
+
+}
+
+.photo{
+    clip-path: circle();
+    height: 40px;
+    width: 40px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.name{
+    color: white;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.button{
+    cursor: pointer;
+    margin-top: 8px;
+    width: 95px;
+    height: 24px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: rgb(27, 26, 26);
+     border-radius: 4px;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+
+textarea{
+    width: 490px;
+    height: 100px;
+     margin-top: 1rem;
+padding-left: 10px;
+font-weight: bold;
+font-size: 20px;
+background: rgb(0, 0, 0);
+color: rgb(243, 236, 236);
+outline: none;
+border: none;
+resize: none;
+}
+
+.button2{
+    display: flex;
+    color: white;
+width:468px ;
+height: 55px;
+background: rgb(20, 20, 20);
+justify-content: start;
+align-items: center;
+margin-left: 15px;
+padding-left: 10px;
+font-size: 20px;
+cursor: pointer;
+margin-top: 9rem;
+border-radius: 8px;
+}
+
+.icon{
+    display: flex;
+padding-left: 12rem;
+justify-content: space-between;
+cursor: pointer;
+}
+
+.icon2{
+    padding-left: 15px;
+}
+
+.icon3{
+    padding-left: 14px;
+}
+
+.button3{
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+background: rgb(24, 23, 23);
+width: 468px;
+height: 30px;
+margin-left: 14px;
+border-radius: 8px;
+cursor: pointer;
+}

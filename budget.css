@@ -1,0 +1,46 @@
+.budget{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.box{
+    margin:  2rem 15rem 2rem 15rem;
+    background-color: rgb(208, 171, 241);
+}
+
+.income{
+    color: white;
+    background-color: green;
+}
+
+.expenses{
+    color: white;
+    background-color: red;
+}
+
+.total{
+    color: white;
+    background-color: darksalmon;
+}
+.add{
+    display: flex;
+    justify-content: center;
+}
+.check{
+    display: flex;
+    justify-content: end;
+}
+.amount{
+    display: flex;
+    justify-content:start;
+}
+
+.des{
+    display: flex;
+    justify-content: start;
+}
+.data{
+    display: flex;
+    justify-content: center;
+}
