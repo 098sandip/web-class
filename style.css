@@ -1,117 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(240, 242, 245);
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 242, 245);
 }
 
 .facebook {
-    display: flex;
-    width: 100%;
-    height: 80vh;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
-    width: 580px;
-    height: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  width: 580px;
+  height: 226px;
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .form {
-    width: 396px;
-    height: 349px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    border: 1px solid white;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    box-shadow: 13px 14px 15px -3px rgba(0, 0, 0, 0.1), -11px -10px 15px -3px rgba(0, 0, 0, 0.1);
+  width: 396px;
+  height: 349px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 1px solid white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 13px 14px 15px -3px rgba(0, 0, 0, 0.1),
+    -11px -10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 input {
-    border-radius: 6px;
-    font-size: 17px;
-    padding: 14px 16px;
-    width: 330px;
-    background-color: #ffffff;
-    margin: 0.5rem;
-    border: 1px solid rgb(240, 242, 245);
-    color: #6f7277;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  background-color: #ffffff;
+  margin: 0.5rem;
+  border: 1px solid rgb(240, 242, 245);
+  color: #6f7277;
 }
 
 .login {
-    background-color: #166fe5;
-    width: 90%;
-    padding: 13px;
-    border: none;
-    border-radius: 6px;
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 1rem;
-    font-weight: bold;
+  background-color: #166fe5;
+  width: 90%;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 .forgot {
-    background-color: #ffffff;
-    color: #166fe5;
-    margin-top: 1rem;
+  background-color: #ffffff;
+  color: #166fe5;
+  margin-top: 1rem;
 }
 
 .hr {
-    color: black;
-    width: 80%;
-    margin-top: 1rem;
-    border: 0.5px solid rgb(239, 233, 233);
+  color: black;
+  width: 80%;
+  margin-top: 1rem;
+  border: 0.5px solid rgb(239, 233, 233);
 }
 
 .create {
-    background-color: #36a420;
-    border-color: #36a420;
-    color: #ffffff;
-    border: none;
-    margin-top: 1rem;
-    padding: 16px;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: 600;
+  background-color: #36a420;
+  border-color: #36a420;
+  color: #ffffff;
+  border: none;
+  margin-top: 1rem;
+  padding: 16px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .text {
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
-    margin-left: 2rem;
-    margin-top: -1rem;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  margin-left: 2rem;
+  margin-top: -1rem;
 }
 
-@media all and (max-width:978px) {
-    .logo {
-        margin-top: -3rem;
-        align-items: center;
-        justify-content: center;
-    }
+@media all and (max-width: 978px) {
+  .logo {
+    margin-top: -3rem;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .text {
-        width: 50vh;
-        text-align: center;
-        font-size: 28px;
-    }
+  .text {
+    width: 50vh;
+    text-align: center;
+    font-size: 28px;
+  }
 }
